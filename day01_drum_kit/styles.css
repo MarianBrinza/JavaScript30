@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("img/concert.png") no-repeat fixed center;
+    background-size: cover;
+}
+
+.wrapper {
+    position: absolute;
+    top: 83%;
+    left: 50%;
+    transform: translate(-50%, -83%);
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+}
+
+.letter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-transform: uppercase;
+    width: 65px;
+    height: 70px;
+    color: white;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans";
+    border: 2px solid #d9c5a0;
+    border-radius: 5px;
+    padding: 20px;
+    background: rgba(89, 48, 45, 0.2);
+    transition: all 0.07s ease;
+}
+
+.letter kbd {
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+.letter span {
+    font-size: 14px;
+    text-align: center;
+    color: #f39624;
+}
+
+.active {
+    box-shadow: 0px 0px 3px 2px rgba(217, 144, 54, 1);
+    transform: scale(1.2);
+    border-color: #bf9056;
+}
+
+@media only screen and (max-width: 1300px) {
+    .letter {
+        width: 65px;
+        height: 60px;
+        padding: 10px;
+    }
+    .letter kbd {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 1020px) {
+    .letter {
+        padding: 0px;
+    }
+    .letter kbd {
+        font-size: 25px;
+        margin-top: 2px;
+    }
+    .letter span {
+        margin-bottom: 6px;
+    }
+}
