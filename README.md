@@ -1,4 +1,4 @@
-#### *JavaScript 30  Challenge*
+<h3>JavaScript 30  Challenge</h3>
 
 This repository contains all of the challanges from the 30 day JavaScript Challange by [Wes Bos](https://wesbos.com/)
 
