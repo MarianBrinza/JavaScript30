@@ -4,6 +4,6 @@
 
 
 
-- [JavaScript30 challange website](https://javascript30.com/)
+- [JavaScript30 challenge website](https://javascript30.com/)
 - [Other courses by Wes Bos](https://wesbos.com/courses/)
 
