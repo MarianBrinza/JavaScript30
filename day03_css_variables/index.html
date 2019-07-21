@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>CSS Variables</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="scripts.js" async></script>
+    <title>CSS Variables</title>
+  </head>
+  <body>
+    <header>
+      <h1>Update CSS variables with JavaScript</h1>
+    </header>
+
+    <div class="controls">
+      <label for="letterSpacing">Update letter spacing variable</label>
+      <input id="letterSpacing" type="range" min="0" max="11" value="0" step="1" />
+      <br />
+
+      <label for="blur">Update the blur variable </label>
+      <input id="blur" type="range" min="0" max="11" value="0" step="1" />
+      <br />
+
+      <label for="textAndBgColor">Update the color variable </label>
+      <input type="color" id="textAndBgColor" />
+    </div>
+
+    <div class="img-wrapper">
+      <img src="new-york.jpg" alt="view of New York City at night" />
+    </div>
+  </body>
 </html>
