@@ -5,7 +5,7 @@ const secondsHand = document.querySelector(".seconds");
 setInterval(setClock, 1000);
 
 function setRotation(element, rotation) {
-  element.style.setProperty("--rotation", rotation * 360);
+  element.style.setProperty("--rotation", String(rotation * 360));
 }
 
 function setClock() {
